@@ -42,6 +42,9 @@ def rerun():
             if rerun.lower() == 'yn':
                 print("Invalid Input!")
                 continue
+            elif rerun.lower() == 'ny':
+                print("Invalid Input!")
+                continue
             else:
                 return rerun
 

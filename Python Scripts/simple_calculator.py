@@ -30,7 +30,6 @@ def calculate(num_tuple):
         else:
             return num_tuple[0] / num_tuple[2]
 
-    
 
 while True:
     user_input = validating_input()

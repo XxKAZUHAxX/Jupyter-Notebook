@@ -35,7 +35,7 @@ def rerun():
         rerun = ""
         try:
             rerun = input("Do you want to rerun the program? (y/n):\t")
-        except rerun.lower() not in 'yn':
+        except rerun not in 'yn':
             print("Invalid Input!")
             continue
         else:
@@ -46,7 +46,7 @@ def rerun():
                 print("Invalid Input!")
                 continue
             else:
-                return rerun
+                return rerun.lower()
 
 
 while True:

@@ -30,7 +30,6 @@ def calculate(num_tuple):
         else:
             return num_tuple[0] / num_tuple[2]
 
-
 def rerun():
     while True:
         rerun = input("Do you want to rerun the program? (y/n):\t").lower()
@@ -45,8 +44,6 @@ def rerun():
             else:
                 print("Invalid Input!")
                 continue
-        
-
 
 while True:
     user_input = validating_input()

@@ -43,6 +43,7 @@ def rerun():
             elif rerun == 'n':
                 return 'n'
             else:
+                print("Invalid Input!")
                 continue
         
 
